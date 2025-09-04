@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gallery & Events - Matrix School</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9;
+      padding: 20px;
+      color: #333;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #0056b3;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 40px;
+    }
+    .gallery img {
+      width: 250px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    .events, .notices {
+      background-color: #f79756;
+      padding: 15px 20px;
+      margin-bottom: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .events ul, .notices ul {
+      list-style-type: disc;
+      padding-left: 20px;
+      font-size: 18px;
+      line-height: 1.6;
+      color: #222;
+    }
+    footer {
+      text-align: center;
+      color: #777;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>School Gallery & Events</h1>
+  </header>
+
+  <section class="gallery">
+    <img src="images/school_building.jpg" alt="School Building">
+  </section>
+
+  <section class="events">
+    <h2>Upcoming Events</h2>
+    <ul>
+      <li>Parent-Teacher Association Meeting - September 30, 2025</li>
+      <li>Graduation Day Ceremony - 2026</li>
+      <li>Sports Day - March 20, 2026</li>
+    </ul>
+  </section>
+
+  <section class="notices">
+    <h2>Notices</h2>
+    <ul>
+      <li>School reopens after holiday break on August 1, 2025</li>
+      <li>Registration deadline for new students: July 15, 2025</li>
+      <li>Results for the second term have been published</li>
+      <li>Fees payment deadline is September 30, 2025</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Matrix Missionary Comprehensive Secondary School</p>
+  </footer>
+</body>
+</html>
